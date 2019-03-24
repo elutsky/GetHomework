@@ -19,6 +19,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <None Include="..\Dockerfile" Link="Dockerfile" />
+  </ItemGroup>
+
+  <ItemGroup>
     <ProjectReference Include="..\ClassLibrary2\HW.Infrastructure.csproj" />
   </ItemGroup>
 

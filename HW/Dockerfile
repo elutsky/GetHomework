@@ -6,7 +6,7 @@ EXPOSE 443
 #FROM microsoft/dotnet:3.0.100-preview2-sdk-stretch AS build
 FROM microsoft/dotnet:2.2-sdk-stretch AS build
 WORKDIR /src
-COPY ["HW/HW.csproj", "HW/"]
+COPY ["**/HW.csproj", "HW/"]
 RUN dotnet restore "HW/HW.csproj"
 COPY . .
 WORKDIR "/src/HW"
