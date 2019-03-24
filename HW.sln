@@ -1,0 +1,37 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.28621.142
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "HW", "HW\HW.csproj", "{6B89519C-61F4-41AB-B596-2184F3F7B022}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.Tests", "ClassLibrary1\HW.Tests.csproj", "{94E5D154-D082-41AC-9F1C-48A5E74F42BF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "HW.Infrastructure", "ClassLibrary2\HW.Infrastructure.csproj", "{8E67A092-0D99-4908-979D-B4570E786427}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6B89519C-61F4-41AB-B596-2184F3F7B022}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6B89519C-61F4-41AB-B596-2184F3F7B022}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6B89519C-61F4-41AB-B596-2184F3F7B022}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6B89519C-61F4-41AB-B596-2184F3F7B022}.Release|Any CPU.Build.0 = Release|Any CPU
+		{94E5D154-D082-41AC-9F1C-48A5E74F42BF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{94E5D154-D082-41AC-9F1C-48A5E74F42BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{94E5D154-D082-41AC-9F1C-48A5E74F42BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{94E5D154-D082-41AC-9F1C-48A5E74F42BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8E67A092-0D99-4908-979D-B4570E786427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8E67A092-0D99-4908-979D-B4570E786427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8E67A092-0D99-4908-979D-B4570E786427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8E67A092-0D99-4908-979D-B4570E786427}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {01CC2A13-3568-4593-BE74-826C374296FC}
+	EndGlobalSection
+EndGlobal
