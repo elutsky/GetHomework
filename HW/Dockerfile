@@ -7,7 +7,7 @@ EXPOSE 443
 FROM microsoft/dotnet:2.2-sdk-stretch AS build
 WORKDIR /src
 COPY ["HW.csproj", "HW/"]
-RUN dotnet restore "HW/HW.csproj"
+RUN dotnet restore "HW.csproj"
 COPY . .
 WORKDIR "/src/HW"
 RUN dotnet build "HW.csproj" -c Debug -o /app
